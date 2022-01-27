@@ -25,6 +25,7 @@ collection.insert_many(data)
 print(collection.inserted_ids)
 print(collection.find_one())
 #Retrieving the first record using the find() method()
+#Data Change
 print("Records of the Collection : ")
 for val in collection.find():
     print(val)
